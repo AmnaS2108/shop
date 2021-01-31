@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body.boja {
+  background-color: rgb(245, 243, 243);
+}
+
+.row.vanjski {
+  background: white;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+}
+
+.cart {
+  padding-left: 3px;
+  padding-right: 3px;
+  border: 1px solid blue;
+  color: blue;
+  text-decoration: none;
+  font-size: 13px;
+  border-radius: 3px;
+}
+
+.row {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.row.tech {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.col-2.rz {
+  border-radius: 4px;
+  background: white;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+  width: 23.5%;
+}
+
+.col-1.rz,
+.col.razmak {
+  width: 2%;
+}
+
+.col-2.proizvod {
+  border-radius: 4px;
+  background: white;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+  width: 32%;
+  position: relative;
+  align-items: center;
+  align-content: center;
+}
+
+.order {
+  border-radius: 3px;
+  background: blue;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.nar {
+  padding-left: 100px;
+  padding-right: 100px;
+  align-items: center;
+  height: 40px;
+}
+
+.row.pad,
+col.pad {
+  background: white;
+}
+
+.col.obuca {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.slika {
+  border: 1px solid black;
+}
+
+.slike {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+.row.price {
+  font-size: larger;
+}
+
+.col.opis {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.row.opis {
+  font-size: medium;
+  font-weight: lighter;
+}
+
+.flex-container.add {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 50px;
+}
+
+.blue {
+  text-decoration: none;
+  border-radius: 5px;
+  background: blue;
+  color: white;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.white {
+  text-decoration: none;
+  border-radius: 5px;
+  background: white;
+  color: blue;
+  padding: 10px;
+  border: 1px solid blue;
+}
+
+.col.can {
+  font-weight: lighter;
+  font-size: 13px;
+}
+
+.remove {
+  border-radius: 5px;
+  border: 1px solid grey;
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  text-align: center;
+}
+
+.col.odabir {
+  background: white;
+  min-width: 75%;
+  margin-right: 10px;
+}
+
+.row.coupon {
+  background: white;
+  margin-bottom: 10px;
+}
+
+.button {
+  background: blue;
+  color: white;
+  text-decoration: none;
+  padding: 3px;
+}
+
+.row.purchase {
+  background: white;
+  text-align: start;
+}
+
+.make {
+  background: blue;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  min-width: 95%;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.col.banner1 {
+  min-width: 70%;
+  background-image: url("/Slike/photography.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(85, 156, 218, 0.514);
+  color: white;
+  margin-right: 10px;
+}
+
+.col.banner2 {
+  background-image: url("/Slike/fruit.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.row.learn {
+  margin: 10px;
+  max-width: 20%;
+}
+
+.learn {
+  margin-top: 10px;
+  background: orangered;
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  text-align: center;
+}
+
+.row.zadnji {
+  margin-bottom: 50px;
+}
+
+.col.one,
+.col.two,
+.col.three {
+  background: white;
+  padding: 10px;
+  margin: 5px;
+}
